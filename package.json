@@ -1,0 +1,43 @@
+{
+  "name": "invites",
+  "version": "0.0.0",
+  "description": "Public invites for Slack and GitHub",
+  "keywords": [
+    "invite",
+    "invitation",
+    "slack",
+    "github"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/simov/invites",
+  "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (https://simov.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simov/invites.git"
+  },
+  "dependencies": {
+    "html": "^1.0.0",
+    "mithril": "^1.1.6",
+    "mithril-node-render": "^2.3.0",
+    "request-compose": "0.0.9"
+  },
+  "devDependencies": {
+    "request-logs": "0.0.5"
+  },
+  "bin": {
+    "invites": "./bin/index.js"
+  },
+  "main": "./server/mw.js",
+  "files": [
+    "bin/",
+    "browser/",
+    "server/",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {},
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
