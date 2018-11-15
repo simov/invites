@@ -19,7 +19,7 @@
     "html": "^1.0.0",
     "mithril": "^1.1.6",
     "mithril-node-render": "^2.3.0",
-    "request-compose": "0.0.9"
+    "request-compose": "^1.0.0"
   },
   "devDependencies": {
     "request-logs": "0.0.5"
