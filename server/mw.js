@@ -27,5 +27,5 @@ module.exports = ({invite, auth}) => {
       .catch((err) => res.json({error: err.message}))
   })
 
-  return Object.assign(mw, ...invites)
+  return Object.assign(mw, invites)
 }
