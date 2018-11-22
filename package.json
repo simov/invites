@@ -1,6 +1,6 @@
 {
   "name": "invites",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Public invites for Slack and GitHub",
   "keywords": [
     "invite",
