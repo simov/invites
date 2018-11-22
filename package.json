@@ -16,22 +16,17 @@
     "url": "https://github.com/simov/invites.git"
   },
   "dependencies": {
-    "html": "^1.0.0",
-    "mithril": "^1.1.6",
-    "mithril-node-render": "^2.3.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
     "request-compose": "^1.0.0"
   },
   "devDependencies": {
     "request-logs": "0.0.5"
   },
-  "bin": {
-    "invites": "./bin/index.js"
-  },
-  "main": "./server/mw.js",
+  "main": "./index.js",
   "files": [
-    "bin/",
-    "browser/",
-    "server/",
+    "lib/",
+    "index.js",
     "LICENSE",
     "README.md",
     "package.json"
